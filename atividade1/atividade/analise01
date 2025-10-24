@@ -1,0 +1,6 @@
+O programa foi executado duas vezes gerando duas logs diferentes em ambas as execuções, o comportamento das theads Produtora e consumidora foi identico:
+ Os valores foram produzidos e consumidos de forma alternada e ordenada, sem interferencia ou inconsistencia em seus dados.
+ isso demonstra que a cincronização implementda com a palavra chave synxhronized funcionou corretamente, garantindo acesso exclusivo a variavel compartilhada dado
+ e evitando condições de corrida 
+
+ concluindo que o código esta cincronizando e apresentando resultados consistentes e previsiveis em todas as execuções.
