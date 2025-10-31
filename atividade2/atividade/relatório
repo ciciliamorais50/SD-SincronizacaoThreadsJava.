@@ -1,0 +1,4 @@
+As execuções da pasta atividade1 mostram threads sem sincronização, onde o produtor e o consumidor atuam de forma desordenada. 
+Já na pasta monitor, o uso de monitores garante a sincronização correta.
+Além disso, é possível notar que nas execuções da atividade1 há risco de condições de corrida e perda de dados, pois o produtor continua trabalhando sem esperar o consumidor.
+Na versão monitor, faz com que as threads cooperem, mantendo a ordem, consistência dos dados e controle do acesso ao recurso compartilhado.
