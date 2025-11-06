@@ -1,0 +1,5 @@
+Nesse trabalho, foram testadas três formas de fazer o produtor e o consumidor trabalharem juntos em Java: usando threads simples, monitor e eventos.
+Com threads simples, tudo roda ao mesmo tempo, mas sem controle, às vezes o produtor e o consumidor se atropelam, o que pode causar erros.
+Usando monitor, o funcionamento ficou mais organizado: um espera o outro terminar antes de continuar. É mais seguro, mas um pouco mais lento.
+Já com eventos, o programa ficou mais equilibrado. As duas partes se comunicam bem, trocando informações e sem travar.
+No fim, os eventos deram o melhor resultado, os monitores garantiram mais segurança e as threads simples servem mais pra entender como tudo funciona.
