@@ -1,0 +1,2 @@
+O Carro.java utiliza um Semaphore com 10 permissões, permitindo que até 10 threads acessem o recurso simultaneamente, controlando o uso de vagas de forma segura. Já o CarroLock.java usa um ReentrantLock, que garante exclusão mútua quando declarado como static, permitindo que apenas uma thread acesse o recurso por vez.
+ Em resumo, Semáforo é indicado para múltiplos acessos simultâneos controlados, enquanto Lock é ideal para acesso exclusivo e previsível.
